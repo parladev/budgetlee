@@ -1,16 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'listItems.dart';
+import 'Demo APP/app.dart';
 
-void main() {
-  runApp(const MaterialApp(
-    title: 'Shopping App',
-    home: ShoppingList(
-      products: [
-        Product(name: 'Yumurta'),
-        Product(name: 'Un'),
-        Product(name: 'Semishka yaghi'),
-      ],
-    ),
-  ));
-}
+void main() => runApp(const App());
