@@ -1,5 +1,6 @@
+import 'package:budgetly/src/Image%20APP/app.dart';
 import 'package:flutter/material.dart';
 
-import 'Demo APP/app.dart';
-
-void main() => runApp(const App());
+void main() {
+  runApp(const ImageApp());
+}

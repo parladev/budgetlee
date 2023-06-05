@@ -1,11 +1,11 @@
+import 'package:budgetly/src/Demo%20APP/titleSection.dart';
 import 'package:flutter/material.dart';
-import 'package:budgetly/Demo%20APP/buttonSection.dart';
-import 'package:budgetly/Demo%20APP/metadataSection.dart';
-import 'package:budgetly/Demo%20APP/titleSection.dart';
+import 'buttonSection.dart';
+import 'metadataSection.dart';
 
 
-class App extends StatelessWidget {
-  const App({super.key});
+class DemoApp extends StatelessWidget {
+  const DemoApp({super.key});
 
   @override
   Widget build(BuildContext context) {
